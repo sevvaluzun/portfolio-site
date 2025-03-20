@@ -1,0 +1,105 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #ce93d8; /* Açık Mor Renk */
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Bölüm (Section) */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+/* Hakkımda, Projeler, İletişim Kısımları */
+section#about, section#projects, section#contact {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Proje Listesi */
+section#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#projects li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Bağlantılar */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* LinkedIn Linki */
+.linkedin-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0e76a8; /* LinkedIn mavi rengi */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.linkedin-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /* İkon ile metin arasındaki boşluk */
+}
+
+.linkedin-link:hover {
+    color: #0b5a8d; /* Hover efekti: rengin koyulaşması */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+/* Responsive Tasarım (Mobil) */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    section {
+        padding: 15px;
+        margin: 10px;
+    }
+}
